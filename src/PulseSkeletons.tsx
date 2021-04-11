@@ -32,7 +32,10 @@ export const PostSkeleton = ({
       ) : postType === "Text" ? (
         <PulseText lines={4} />
       ) : (
-        <></>
+        <>
+          <PulseShape type="Rectangle" className={styles.postContent} />
+          <PulseText lines={2} />
+        </>
       )}
       <div className={styles.postFooter}>
         <PulseShape type="Rectangle" className={styles.FooterElement} />
@@ -43,7 +46,7 @@ export const PostSkeleton = ({
 };
 
 const PulseText = ({ lines }: { lines: number }) => (
-  <div style={{ padding: "1rem" }}>
+  <div style={{ padding: "0.5rem" }}>
     {Array.from(Array(lines - 1).keys()).map((line) => (
       <PulseShape type="Rectangle" className={styles.textLine} />
     ))}

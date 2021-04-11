@@ -12,7 +12,7 @@ const App = () => (
     }}
   >
     <div style={{ width: "650px" }}>
-      <PostSkeleton postType="Image" />
+      <PostSkeleton postType="Both" />
       <PostSkeleton postType="Text" />
       <PostSkeleton postType="Image" />
       <PostSkeleton postType="Text" />
