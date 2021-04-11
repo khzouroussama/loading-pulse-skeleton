@@ -12,6 +12,8 @@ const App = () => (
     }}
   >
     <div style={{ width: "650px" }}>
+      {/*  <PostSkeleton/> will will the width of it's parent unless className/style privided other width value
+      (it accept all 'div' props + postType prop)*/}
       <PostSkeleton postType="Both" />
       <PostSkeleton postType="Text" />
       <PostSkeleton postType="Image" />
