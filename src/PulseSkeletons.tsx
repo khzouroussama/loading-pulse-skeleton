@@ -1,7 +1,7 @@
 import styles from "./skeletonStyles.module.css";
 import { PulseShape } from "./PulsePlaceholders";
 
-interface PostkeletonProps extends React.ComponentPropsWithoutRef<"div"> {
+interface PostSkeletonProps extends React.ComponentPropsWithoutRef<"div"> {
   postType: "Image" | "Text" | "Both";
 }
 
@@ -9,7 +9,7 @@ export const PostSkeleton = ({
   postType,
   className,
   ...rest
-}: PostkeletonProps) => {
+}: PostSkeletonProps) => {
   return (
     <div className={`${styles.post} ${className || ""}`} {...rest}>
       <div className={styles.postHeader}>

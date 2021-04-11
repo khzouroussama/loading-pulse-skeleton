@@ -1,3 +1,4 @@
+import "./index.css";
 import ReactDOM from "react-dom";
 import { PostSkeleton } from "./PulseSkeletons";
 
@@ -5,7 +6,7 @@ const App = () => (
   <div
     style={{
       display: "flex",
-      padding: "2rem",
+      padding: "2rem 0.2rem",
       justifyContent: "center",
       backgroundColor: "#efefef",
     }}
