@@ -51,9 +51,5 @@
 .textLine {
   height: 1rem;
   width: 100%;
-  margin: 0.2rem 0;
-}
-
-.shadow {
-  box-shadow: 5px 5px 50px -22px rgba(0, 0, 0, 0.75);
+  margin: 0.5rem 0;
 }
