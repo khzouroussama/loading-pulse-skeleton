@@ -1,0 +1,59 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  background-color: white;
+  margin-bottom: 0.5rem;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 4rem;
+}
+
+.postContent {
+  margin-top: 1rem;
+  height: 15rem;
+}
+
+.postFooter {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.avatar {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 0.6rem;
+}
+
+.userInfoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo {
+  width: 6rem;
+  height: 0.8rem;
+  margin: 0.3rem;
+}
+
+.FooterElement {
+  height: 1rem;
+  width: 2.5rem;
+  margin-right: 0.6rem;
+  border-radius: 0.6rem;
+}
+
+.textLine {
+  height: 1rem;
+  width: 100%;
+  margin: 0.2rem 0;
+}
+
+.shadow {
+  box-shadow: 5px 5px 50px -22px rgba(0, 0, 0, 0.75);
+}
